@@ -55,7 +55,7 @@ const PostPage = () => {
                         </Link>
                     </div>
                 )}
-                <figure> <img src={`${process.env.REACT_APP_BACKEND_URL}${postInfo.cover}`} alt="" /></figure>
+                <figure> <img src={`http://localhost:4000/${postInfo.cover}`} alt="" /></figure>
                 <div className='post-html' dangerouslySetInnerHTML={{__html:postInfo.content}} />
                 </article>
             </div>
