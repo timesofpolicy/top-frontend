@@ -26,7 +26,7 @@ const PageLayout = () => {
             // className={fix ? 'py-4 px-12 border-l border-gray-300 h-[calc(100vh-4rem)] sidebar' : 'py-4 px-12 border-l border-gray-300 h-[calc(100vh-4rem)]'}
             className='py-4 px-12 h-[calc(100vh-4rem)]'
             >
-                <Sidebar />
+                {/* <Sidebar /> */}
             </div>
         </div>
     </>
