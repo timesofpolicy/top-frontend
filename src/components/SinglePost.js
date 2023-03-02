@@ -56,7 +56,7 @@ const SinglePost = ({_id, title, summary, cover, content, createdAt, author}) =>
                         style={{backgroundImage: `url(${'http://localhost:4000/'+cover})`}}
                     > */}
                     {/* <img className='w-full' src={`${process.env.REACT_APP_BACKEND_URL}`+cover} alt='blog-post' /> */}
-                    <img className='w-full' src={'http://localhost:4000/'+cover} alt='blog-post' />
+                    <img className='w-full' src={'https://top-backend.onrender.com/'+cover} alt='blog-post' />
                     {/* </div> */}
                     </Link>
                 </div>
