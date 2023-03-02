@@ -16,8 +16,10 @@ const PageLayout = () => {
 
   return (
     <>
-        <div className='mx-16 px-2 md:px-6 lg:px-8 grid sm:grid-cols-1 md:grid-cols-3 gap-1 mt-16'>
-            <div className='col-span-2 border-r border-gray-300'>
+        {/* <div className='mx-16 px-2 md:px-6 lg:px-8 grid sm:grid-cols-1 md:grid-cols-3 gap-1 mt-16'>
+            <div className='col-span-2 border-r border-gray-300'> */}
+            <div className='mx-16 px-2 md:px-6 lg:px-8 grid sm:grid-cols-1 md:grid-cols-1 gap-1 mt-16'>
+            <div className=''>
                 {posts.length > 0 && posts.map((post, postkey) => (
                     <SinglePost key={postkey} {...post} />
                 ))}
